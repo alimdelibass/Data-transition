@@ -24,7 +24,14 @@ class ViewController: UIViewController {
         let gonderilecekmesaj = girdiAlani.text
         gidilecekviewB.mesaj = gonderilecekmesaj!
         
-        self.present(gidilecekviewB, animated: true, completion: nil)
+        let gonderilecekKisi = kisiler(id: 225, name: "Alex")
+        gidilecekviewB.kisi = gonderilecekKisi
+        
+        
+        //transitio with modally
+        //self.present(gidilecekviewB, animated: true, completion: nil)
+        
+        self.navigationController?.pushViewController(gidilecekviewB, animated: true)
     }
     
 }
