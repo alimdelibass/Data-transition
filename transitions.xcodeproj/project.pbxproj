@@ -15,6 +15,7 @@
 		477E298F2B39EFF4005530B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477E298D2B39EFF4005530B6 /* LaunchScreen.storyboard */; };
 		477E29972B39F048005530B6 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477E29962B39F048005530B6 /* ViewControllerB.swift */; };
 		477E29992B39F870005530B6 /* kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477E29982B39F870005530B6 /* kisiler.swift */; };
+		477E299B2B3A13C4005530B6 /* ViewControllerC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477E299A2B3A13C4005530B6 /* ViewControllerC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		477E29902B39EFF4005530B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		477E29962B39F048005530B6 /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
 		477E29982B39F870005530B6 /* kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kisiler.swift; sourceTree = "<group>"; };
+		477E299A2B3A13C4005530B6 /* ViewControllerC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				477E29822B39EFF2005530B6 /* AppDelegate.swift */,
 				477E29842B39EFF2005530B6 /* SceneDelegate.swift */,
 				477E29962B39F048005530B6 /* ViewControllerB.swift */,
+				477E299A2B3A13C4005530B6 /* ViewControllerC.swift */,
 				477E29862B39EFF2005530B6 /* ViewController.swift */,
 				477E29882B39EFF2005530B6 /* Main.storyboard */,
 				477E298B2B39EFF4005530B6 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477E299B2B3A13C4005530B6 /* ViewControllerC.swift in Sources */,
 				477E29992B39F870005530B6 /* kisiler.swift in Sources */,
 				477E29872B39EFF2005530B6 /* ViewController.swift in Sources */,
 				477E29972B39F048005530B6 /* ViewControllerB.swift in Sources */,
